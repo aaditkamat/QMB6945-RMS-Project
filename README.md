@@ -22,3 +22,12 @@ One of our current solutions focuses on gathering and
 aggregating financial reports from various restaurant franchisees. A key element of this tool is to benchmark an
 individual’s current financial state against their peers. A better understanding of various benchmarking methodologies
 will enhance the user experience, allowing them to gain better insight through more appropriate comparison groups.
+
+## Working with Jupyter Notebooks
+
+Make sure to install all the Python dependencies that are used in the notebooks as follows:
+
+```bash
+source venv/Scripts/activate
+pip install -r requirements.txt
+```
