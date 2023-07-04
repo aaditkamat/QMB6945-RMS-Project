@@ -28,6 +28,7 @@ will enhance the user experience, allowing them to gain better insight through m
 Make sure to install all the Python dependencies that are used in the notebooks as follows:
 
 ```bash
-source venv/Scripts/activate
+python -m venv venv
+source venv/bin/activate # source venv/Scripts/activate if using Windows
 pip install -r requirements.txt
 ```
