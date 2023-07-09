@@ -32,4 +32,7 @@ venv/
 # Built Visual Studio Code Extensions
 *.vsix
 
+# Environment variables
+.env
+
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python
