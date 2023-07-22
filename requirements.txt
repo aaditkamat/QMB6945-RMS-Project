@@ -98,7 +98,7 @@ Pillow==9.5.0
 platformdirs==3.8.0
 plotly==5.15.0
 ply==3.11
-polars==0.18.4
+polars==0.18.8
 prometheus-client==0.17.1
 prompt-toolkit==3.0.38
 protobuf==4.23.3
