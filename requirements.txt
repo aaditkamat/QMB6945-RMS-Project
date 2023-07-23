@@ -39,7 +39,7 @@ greenlet==2.0.2
 grpcio==1.56.2
 idna==3.4
 importlib-metadata==5.2.0
-ipykernel==6.23.3
+ipykernel==6.24.0
 ipython==8.14.0
 ipython-genutils==0.2.0
 isoduration==20.11.0
