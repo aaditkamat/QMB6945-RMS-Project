@@ -32,7 +32,7 @@ executing==1.2.0
 faiss-cpu==1.7.4
 fastjsonschema==2.18.0
 filelock==3.12.2
-fonttools==4.40.0
+fonttools==4.41.1
 fqdn==1.5.1
 frozenlist==1.4.0
 greenlet==2.0.2
