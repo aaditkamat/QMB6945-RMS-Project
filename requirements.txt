@@ -26,7 +26,7 @@ decorator==5.1.1
 defusedxml==0.7.1
 executing==1.2.0
 fastjsonschema==2.18.0
-fonttools==4.40.0
+fonttools==4.41.1
 fqdn==1.5.1
 frozenlist==1.4.0
 greenlet==2.0.2
