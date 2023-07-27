@@ -21,7 +21,8 @@ debugpy==1.6.7
 decorator==5.1.1
 et-xmlfile==1.1.0
 executing==1.2.0
-fonttools==4.40.0
+fastjsonschema==2.18.0
+fonttools==4.41.1
 fqdn==1.5.1
 frozenlist==1.4.0
 future==0.18.3
