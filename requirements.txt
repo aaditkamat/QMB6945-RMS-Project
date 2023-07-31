@@ -129,4 +129,4 @@ webencodings==0.5.1
 websocket-client==1.6.1
 xlrd==2.0.1
 xlwt-future==0.8.0
-zipp==3.15.0
+zipp==3.16.2
