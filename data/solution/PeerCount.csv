@@ -1,0 +1,27 @@
+
+output orientation, VRS
+Efficient Peers,00040302CE36,00040302CF03,00040302D014
+DMU
+00040302CD88,Infeasible
+00040302CE36,-,-,-
+00040302CF03,-,-,-
+00040302CF28,Infeasible
+00040302D006,Infeasible
+00040302D014,-,-,-
+0004030A635E,Infeasible
+0004030B92EE,Infeasible
+0004030BEB57,Infeasible
+Peer count
+output orientation, VRS second phase
+Efficient Peers,00040302CE36,00040302CF03,00040302D014
+DMU
+00040302CD88,Infeasible
+00040302CE36,-,-,-
+00040302CF03,-,-,-
+00040302CF28,Infeasible
+00040302D006,Infeasible
+00040302D014,-,-,-
+0004030A635E,Infeasible
+0004030B92EE,Infeasible
+0004030BEB57,Infeasible
+Peer count

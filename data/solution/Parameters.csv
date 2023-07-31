@@ -1,0 +1,21 @@
+
+Run date and time:,Mon Jul 31 15:24:16 2023
+Calculation time:,0.345072 seconds
+Parameter name,Value
+DATA_FILE,data/BenchmarkingSample20230607_with_features_by_unit.csv
+INPUT_CATEGORIES,Gross Profit
+OUTPUT_CATEGORIES,Total Cost of Sales
+DEA_FORM,env
+RETURN_TO_SCALE,VRS
+ORIENTATION,output
+NON_DISCRETIONARY_CATEGORIES,Total Cost of Sales
+WEAKLY_DISPOSAL_CATEGORIES,Total Cost of Sales
+USE_SUPER_EFFICIENCY,''
+ABS_WEIGHT_RESTRICTIONS,Total Cost of Sales >= 0
+VIRTUAL_WEIGHT_RESTRICTIONS,Total Cost of Sales >= 0
+PRICE_RATIO_RESTRICTIONS,Gross Profit/Gross Profit >= 1
+MAXIMIZE_SLACKS,''
+MULTIPLIER_MODEL_TOLERANCE,0.000000
+OUTPUT_FILE,data/solution.csv
+CATEGORICAL_CATEGORY,Categorical
+PEEL_THE_ONION,''
