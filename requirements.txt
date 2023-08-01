@@ -29,7 +29,7 @@ fqdn==1.5.1
 future==0.18.3
 greenlet==2.0.2
 idna==3.4
-importlib-metadata==5.2.0
+importlib-metadata==6.8.0
 ipykernel==6.25.0
 ipython==8.14.0
 isoduration==20.11.0
