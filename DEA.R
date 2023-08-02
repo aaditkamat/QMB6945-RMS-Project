@@ -35,4 +35,3 @@ BLUE <- "#076fa2"
 plt <- ggplot(ordered_efficiency_data) + 
   geom_col(aes(Efficiency, Unit, fill = Unit), width = 0.6) + 
   ggtitle('Efficiency for each DMU')
-  
