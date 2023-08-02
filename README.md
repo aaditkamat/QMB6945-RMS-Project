@@ -32,3 +32,11 @@ python -m venv venv
 source venv/bin/activate # source venv/Scripts/activate if using Windows
 pip install -r requirements.txt
 ```
+
+Also ensure that the Jupyter notebook can access the R kernel by installing the [IRkernel R package](https://irkernel.github.io) as follows:
+
+```bash
+R # to run the R console
+> install.packages('IRkernel')
+> IRkernel::installspec()
+```
