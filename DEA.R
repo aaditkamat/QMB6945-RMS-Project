@@ -5,11 +5,17 @@ library(tidyverse)
 # Load data
 df <- read_csv("data/BenchmarkingSample20230607_with_features.csv")
 
+# Group data based on Unit, using mean as the summary statistics
+grouped_df <- df %>% 
+  group_by(Unit) %>% 
+  summarize(across(everything(), mean), .groups = 'drop') %>%
+  as.data.frame()
+
 ## Specify Inputs and Outputs for DEA
 Y <- grouped_df['Gross Profit']
 X <- grouped_df['Total Cost of Sales']
 
-## Calculate Naive input-oriented DEA score for first 5 units under variable returns-to-scale
+## Calculate Naive input-oriented DEA score for the units
 num_units <- 1 : nrow(X)
 di_naive <- dea(XREF = X, YREF=Y, X = X[num_units, ], Y = Y[num_units, ], model = 'input')
 
