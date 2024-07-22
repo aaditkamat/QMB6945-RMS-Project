@@ -79,7 +79,7 @@ psutil==5.9.5
 ptyprocess==0.7.0
 PuLP==2.7.0
 pure-eval==0.2.2
-pyarrow==12.0.1
+pyarrow==14.0.1
 pycparser==2.21
 pydantic==2.1.1
 pydantic_core==2.4.0
